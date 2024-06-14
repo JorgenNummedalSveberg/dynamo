@@ -1,0 +1,19 @@
+{
+  "name": "fallout",
+  "type": "module",
+  "version": "1.0.0",
+  "main": "main.js",
+  "scripts": {
+    "build": "node lib/build.js",
+    "watch": "node lib/watch.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "chokidar": "^3.6.0",
+    "fs": "^0.0.1-security",
+    "jsdom": "^24.1.0"
+  }
+}
