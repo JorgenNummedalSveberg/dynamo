@@ -9,11 +9,17 @@
     <!-- end of required -->
   </head>
   <body>
-    <div class="router-links">
-      <a router-link="box" router-target="target">Box</a>
-      <a router-link="circle" router-target="target">Circle</a>
-      <a router-link="" router-target="target">Clear</a>
+    <div class="container">
+      <div class="menu">
+        <h2>Menu</h2>
+        <h3><a router-link="home" router-target="main-content">Home</a></h3>
+        <h3><a router-link="crew" router-target="main-content">Crew</a></h3>
+        <h3><a router-link="about" router-target="main-content">About</a></h3>
+        <h3>
+          <a router-link="contact" router-target="main-content">Contact</a>
+        </h3>
+      </div>
+      <div id="main-content"></div>
     </div>
-    <div id="target"></div>
   </body>
 </html>
